@@ -1,10 +1,9 @@
 # Fundamentos do ReactJS
 
-- Learning ReactJS at https://app.rocketseat.com.br/discover/course/especializar-react/especializar-react/abertura-17
+- Learning ReactJS at https://app.rocketseat.com.br/discover/course/especializar-react/especializar-react
 
 
-## Take a look at the app we create at the class
-
+## Here's the App created on today's class
 
 
 https://user-images.githubusercontent.com/130297266/234880546-e11f98ed-0b1b-4ada-a4c3-012a6c7f9af1.mp4
