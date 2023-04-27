@@ -3,18 +3,16 @@ import './styles.css';
 import {Card} from '../../components/Card'
 
 export function Home() {
-  function handleNameChange(name){
-    console.log(name)
-  }
+  const [studentName, setStudentName] = useState();
 
   return (
     <div className='container'>
-      <h1>Lista de Presença</h1>
+      <h1>Nome: {studentName} </h1>
 
       <input 
         type="text" 
         placeholder='Digite o nome...' 
-        onChange={e => handleNameChange(e.target.value)}
+        onChange={e => setStudentName(e.target.value)}
       />
 
       <button type='button'>Adicionar</button>
