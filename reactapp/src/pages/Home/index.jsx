@@ -21,7 +21,13 @@ export function Home() {
 
   return (
     <div className='container'>
-      <h1>Lista de Presença</h1>
+      <header>
+        <h1>Lista de Presença</h1>
+        <div>
+          <strong>Maires</strong>
+          <img src="https://github.com/mairess.png" alt="Foto de perfil do github" />
+        </div>
+      </header>
 
       <input 
         type="text" 
