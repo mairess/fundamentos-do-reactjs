@@ -1,11 +1,8 @@
 # Fundamentos do ReactJS
 
-- Learning ReactJS at https://app.rocketseat.com.br/discover/course/especializar-react/especializar-react
+* Learning the Fundamentals of ReactJS.
 
-
-## Here's the App created in today's class
-
-* Attendance list app, helps you keep record of people who are attending a class, course, meeting, event, etc.   
+* Attendance list app, I did this watching here https://app.rocketseat.com.br/discover/course/especializar-react/especializar-react
 
 
 https://user-images.githubusercontent.com/130297266/234880546-e11f98ed-0b1b-4ada-a4c3-012a6c7f9af1.mp4
