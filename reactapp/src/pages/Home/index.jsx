@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import './styles.css';
 import {Card} from '../../components/Card'
 
@@ -18,6 +18,10 @@ export function Home() {
 
     setStudents(prevState => [...prevState, newStudent])
   }
+
+  useEffect(() => {
+    console.log("useEffetc foi chamado!")
+  }, []);
 
   return (
     <div className='container'>
