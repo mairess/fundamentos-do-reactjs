@@ -5,7 +5,7 @@ export type CardProps = {
     time: string;
 }
 
-export function Card(props: Cardprops){
+export function Card(props: CardProps){
     return(
         <div className='card'>
             <strong> {props.name} </strong>
