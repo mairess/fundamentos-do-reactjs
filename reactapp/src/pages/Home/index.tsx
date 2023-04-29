@@ -1,11 +1,11 @@
 import { useState, useEffect } from 'react'
 import './styles.css';
-import {Card, CardProps} from '../../components/Card'
+import { Card, CardProps } from '../../components/Card'
 
 export function Home() {
   const [studentName, setStudentName] = useState();
   const [students, setStudents] = useState<CardProps[]>([]);
-  const [user, setUser] = useState({name: "", avatar: ""})
+  const [user, setUser] = useState({name: "", avatar: ""});
 
   function handleAddStudent(){
     const newStudent = {
@@ -15,7 +15,7 @@ export function Home() {
         minute: "2-digit",
         second: "2-digit",
       })
-    }
+    };
 
     setStudents(prevState => [...prevState, newStudent])
   }
@@ -28,7 +28,7 @@ export function Home() {
       setUser({
         name: data.name, 
         avatar:data.avatar_url,
-      })
+      });
     }
 
     fetchData()
