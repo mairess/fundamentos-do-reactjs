@@ -1,8 +1,7 @@
-# Fundamentos do ReactJS
+# <p align="center"> Fundamentos do ReactJS </p>
 
-* Learning the Fundamentals of ReactJS.
-
-* Attendance list app, I did this watching here https://app.rocketseat.com.br/discover/course/especializar-react/especializar-react
+* Learning the Fundamentals of ReactJS I have created this attendance list app, check this out and do the same 
+<br> 👉🏽  https://app.rocketseat.com.br/discover/course/especializar-react/especializar-react
 
 ---
 
